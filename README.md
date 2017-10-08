@@ -1,4 +1,5 @@
 # Website-Guide
+~ Html Tags bei File-Öffnung
 
 
   % Head
@@ -23,6 +24,17 @@
   - Fonts
   - Css files
   - Google console
+  
+  %InternetExplorer
+      <!--[if lte IE 9]>
+        <p class="browserupgrade">Sie brauchen einen <strong>veralteten</strong> Browser. 
+        Bitte erneuern Sie den Browser <a   href="https://browsehappy.com/">hier</a></p>
+      <![endif]-->
+      
+      <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
+        Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
 
 
   % Responsive
